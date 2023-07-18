@@ -27,8 +27,8 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}        
         with:
           args: >
-            -Dsonar.organization=nishanthkumarpathi
-            -Dsonar.projectKey=nishanthkumarpathi_employeefrontend-fursan-track3
+            -Dsonar.organization=rayah
+            -Dsonar.projectKey=rayah
             -Dsonar.sources=.
             -Dsonar.host.url=https://sonarcloud.io
 
